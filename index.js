@@ -23,8 +23,8 @@ function sayHello(personName) {
   return `Bonjour ${personName}`;
 }
 const sayHelloArrow = (personName) => `Bonjour ${personName}`;
-console.log(sayHello("Amal"));       
-console.log(sayHelloArrow("Jawhari")); 
+console.log(sayHello("Hiba"));       
+console.log(sayHelloArrow("Hiba")); 
 
 //Exercice 4
 const person = { 
@@ -32,7 +32,7 @@ const person = {
   sayHello: function () { 
     console.log("Bonjour " + this.name); 
   }, 
-  sayHelloArrow: function () {  // ✅ remplacée par une fonction classique
+  sayHelloArrow: function () {  //remplacée par une fonction classique
     console.log("Bonjour " + this.name); 
   }, 
 }; 
